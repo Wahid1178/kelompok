@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <title>RuangPadang</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="nav">
+            <div class="logo">
+                <h2><img src="./img/logo.png" alt=""><a href="./index.html">RuangPadang</a></h2>
+            </div>
+            <ul class="nav_menu_list">
+                <li class="nav_menu_item"><a href="./index.html" class="nav_menu_link">Home</a></li>
+                <li class="nav_menu_item"><a href="./transportasi.html" class="nav_menu_link">Transportasi</a></li>
+                <li class="nav_menu_item"><a href="./layanan.html" class="nav_menu_link">Layanan</a></li>
+                <li class="nav_menu_item"><a href="./kontak.html" class="nav_menu_link">Contact</a></li>
+                <li class="nav_menu_item"><a href="./budaya.html" class="nav_menu_link">Event Budaya</a></li>
+                <li class="nav_menu_item"><a href="./lapor.html" class="nav_menu_link">Lapor</a></li>
+            </ul>
+        </div>
+        <div class="profile-menu">
+            <a href="./index.html" class="profile-link">Kelompok 9</a>
+            <a href="./index.html"><img src="./img/profile.webp" alt=""></a>
+        </div>
+    </header>
+
+    <!-- Main Banner -->
+    <section class="banner">
+        <div class="banner-card">
+            <img src="img/padang.jpg" alt="Beautiful Padang">
+            <div class="banner-text">
+                <h2>Cuaca Saat Ini</h2>
+                <div id="weather"></div>
+                <h1>Welcome to Padang</h1>
+                <p>Mari Kita Mengetahui Sejarah Kota Padang.</p>
+                <a href="./profil.html" class="btn_home">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Main Content -->
+    <div class="wrapper-home1">
+        <div class="grid-cols-2">
+            <div class="grid-item-1">
+                <h1 class="main-heading">Discover <span>Delicious</span> Food</h1>
+                <div class="btn_wrapper">
+                    <a href="./makanan.html" class="btn_home">Explore</a>
+                </div>
+            </div>
+            <div class="grid-item-2">
+                <div class="team_img_wrapper">
+                    <img src="./img/rendangg.jpeg" alt="Delicious Rendang">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-home2">
+        <div class="grid-cols-2">
+            <div class="grid-item-1">
+                <h1 class="main-heading">Discover <span>Destination</span></h1>
+                <div class="btn_wrapper">
+                    <a href="./destinasi.html" class="btn_home">Explore</a>
+                </div>
+            </div>
+            <div class="grid-item-2">
+                <div class="team_img_wrapper">
+                    <img src="./img/padang1.jpg" alt="umah Gadang">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>▼ Balai Kota :</h3>
+                <p>
+                    Jl. Bagindo Aziz Chan No.1 <br>
+                    Aie Pacah - Kota Padang <br>
+                    Sumatera Barat <br>
+                    Telp. : 0751 4640800 <br>
+                    Email : diskominfo@padang.go.id
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>▼ Jam Kerja :</h3>
+                <p>
+                    Senin - Kamis : 07.30 - 16.00 WIB <br>
+                    Jum'at : 07.30 - 16.30 WIB
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>▼ Media Sosial :</h3>
+                <div class="social-links">
+                    <a href="#"><img src="./img/footer/fb.png" alt="Facebook"> Facebook</a>
+                    <a href="#"><img src="./img/footer/twitter.png" alt="Twitter"> Twitter</a>
+                    <a href="#"><img src="./img/footer/ig.jpeg" alt="Instagram"> Instagram</a>
+                    <a href="#"><img src="./img/footer/yt.jpeg" alt="YouTube"> Youtube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot -->
+    <button class="chat-button" onclick="toggleChat()">💬 Chat</button>
+    <div class="chat-container" id="chatContainer">
+        <div class="chat-header">
+            Chatbot RuangPadang
+            <button onclick="toggleChat()" class="close-chat">✖</button>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <p><strong>Bot:</strong> Halo! Ada yang bisa saya bantu?</p>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Ketik pesan..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">Kirim</button>
+        </div>
+    </div>
+    
+    <a href="tel:110" class="sos-button">🚨 SOS</a>
+    <script src="./script.js"></script>
+</body>
+</html>

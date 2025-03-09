@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konfirmasi Pembelian Tiket</title>
+    <link rel="stylesheet" href="baru.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav">
+            <div class="logo">
+                <h2><img src="./img/logo.png" alt=""><a href="./index.html">RuangPadang</a></h2>
+            </div>
+            <ul class="nav_menu_list">
+                <li class="nav_menu_item"><a href="./index.html" class="nav_menu_link">Home</a></li>
+                <li class="nav_menu_item"><a href="./transportasi.html" class="nav_menu_link">Transportasi</a></li>
+                <li class="nav_menu_item"><a href="./layanan.html" class="nav_menu_link">Layanan</a></li>
+                <li class="nav_menu_item"><a href="./kontak.html" class="nav_menu_link">Contact</a></li>
+                <li class="nav_menu_item"><a href="./budaya.html" class="nav_menu_link">Event Budaya</a></li>
+                <li class="nav_menu_item"><a href="./lapor.html" class="nav_menu_link">Lapor</a></li>
+            </ul>
+        </div>
+        <div class="profile-menu">
+            <a href="./index.html" class="profile-link">Kelompok 9</a>
+            <a href="./index.html"><img src="./img/profile.webp" alt=""></a>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Pembelian Berhasil!</h1>
+        <p>Terima kasih telah melakukan pembelian tiket. Berikut detail tiket Anda:</p>
+        <div class="details">
+            <div><strong>Nama Lengkap:</strong> M Hidayat Nur Wahid</div>
+            <div><strong>Stasiun:</strong> Stasiun Kereta Api Pasar Alai </div>
+            <div><strong>Tujuan:</strong> Stasiun Kereta Api Tabing</div>
+            <div><strong>Tanggal Keberangkatan:</strong> 23 Desember 2024</div>
+            <div><strong>Jumlah Tiket:</strong> 1</div>
+            <div><strong>Nomor Tiket:</strong> 112239301922</div>
+        </div>
+        <div class="button-group">
+            <a href="#">Cetak Tiket</a>
+            <a href="./pembelian.html">Kembali ke Pembelian</a>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Bagian Balai Kota -->
+            <div class="footer-section">
+                <h3>▼ Balai Kota :</h3>
+                <p>
+                    Jl. Bagindo Aziz Chan No.1 <br>
+                    Aie Pacah - Kota Padang <br>
+                    Sumatera Barat <br>
+                    Telp. : 0751 4640800 <br>
+                    Email : diskominfo@padang.go.id
+                </p>
+            </div>
+            <!-- Bagian Jam Kerja -->
+            <div class="footer-section">
+                <h3>▼ Jam Kerja :</h3>
+                <p>
+                    Senin - Kamis : 07.30 - 16.00 WIB <br>
+                    Jum'at : 07.30 - 16.30 WIB
+                </p>
+            </div>
+            <!-- Bagian Media Sosial -->
+            <div class="footer-section">
+                <h3>▼ Media Sosial :</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/19htirRw3k/"><img src="./img/footer/fb.png" alt="Facebook"> Facebook</a>
+                    <a href="https://x.com/InfoPadang_?t=xa4cL9omKUdF7naWZNfqew&s=09"><img src="./img/footer/twitter.png" alt="Twitter"> Twitter</a>
+                    <a href="https://www.instagram.com/infopadang_?igsh=NmlqdXliaTk0NHRt"><img src="./img/footer/ig.jpeg" alt="Instagram"> Instagram</a>
+                    <a href="https://youtube.com/@balaikotatv?si=sem1HpLRZDMjxxsd"><img src="./img/footer/yt.jpeg" alt="YouTube"> Youtube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button class="chat-button" onclick="toggleChat()">💬 Chat</button>
+    <div class="chat-container" id="chatContainer">
+        <div class="chat-header">
+            Chatbot RuangPadang
+            <button onclick="toggleChat()" class="close-chat">✖</button>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <p><strong>Bot:</strong> Halo! Ada yang bisa saya bantu?</p>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Ketik pesan..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">Kirim</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

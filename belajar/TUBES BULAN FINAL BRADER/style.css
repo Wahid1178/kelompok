@@ -1,0 +1,350 @@
+/* Reset */
+
+
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+.header {
+position: none;
+top: 0;
+left: 0;
+width: 100%;
+height: 90px;
+background: #DCDCDC;
+padding: 20px 4rem;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 100;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+position: sticky;
+}
+
+h1 {
+  text-align: center;
+  color: #0097a7;
+  font-size: 30px;
+}
+
+.card h1 {
+  color: #e4dfdb;
+}
+
+.profile-menu {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.profile-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.profile-link:hover {
+  color: #007b8b;
+}
+
+.profile-menu img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h2 a{
+  font-size: 24px;
+  font-weight: bold;
+  color: #0097a7;
+  margin: 0;
+  text-decoration: none;font-size: 24px;
+  font-weight: bold;
+  color: #0097a7;
+  margin: 0;
+}
+
+.logo img{
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px; /* Berikan jarak antara logo dan teks */
+    transform: translateY(10px);
+  }
+
+.nav_menu_list {
+  display: flex;
+  align-items: center;
+}
+
+.nav_menu_item {
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_menu_link {
+  font-size: 16px;
+  color: #333;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.nav_menu_link:hover {
+  color: #0097a7;
+}
+
+
+article {
+  background: #e4dfdb;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid Section */
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 30px;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Pusatkan secara horizontal */
+  align-items: center;   /* Pusatkan secara vertikal */
+  width: 100%;
+}
+
+
+
+button {
+  padding: 10px 20px;
+  background-color: #09d2e8;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: none;
+  
+}
+
+button:hover {
+  background-color: #007a8c;
+  
+}
+
+.category button{
+text-decoration: none;
+}
+
+
+.category  .list-items .card-list .card .nama-makanan .submit{
+text-decoration: none;
+}
+
+.category .list-items .card-list .card .nama-makanan h1 {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.category .list-items .card-list .card .deskripsi-makanan p{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.content .content-left .info h2{
+font-size: 50px;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 30px;
+color: #0097a7;
+}
+
+.content .content-left .info p{
+font-size: 20px;
+line-height: 2pc;
+margin-bottom: 20px;
+color: #633030;
+}
+
+.content-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-right img {
+ width: 550px;
+ height: 550x;
+ display: flex;
+ float: right;
+ position: relative;
+ animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+0%{
+  transform: rotate(0deg);
+}
+100%{
+  transform: rotate(360deg);
+}
+
+}
+.btn{
+display: inline-block;
+padding: 10px 20px;
+background-color: #09d2e8;
+color: #DCDCDC;
+border-radius: 5px;
+margin-bottom: 10px;
+text-decoration: none;
+}
+
+/* Category Section */
+.category {
+  display: flex;
+  justify-content: center; /* Pusatkan secara horizontal /   / Pusatkan secara vertikal */
+  width: 100%;
+}
+
+.category .list-items{
+width: 90%;
+position: relative;
+margin-top: 100px;
+}
+
+.category .list-items h3 {
+  color: #633030;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 70px;
+  margin-bottom: 7%;
+}
+
+.category .list-items .card-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.category .card-list .card {
+  width: 200px;
+  height: auto;
+  background: #f3f3f3;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  outline: 2px solid #0097a7;
+  display: block;
+}
+
+.category .card-list .card img {
+  width: 100px;
+  height: auto;
+  bottom: 170px;
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 20px 20px rgba(152, 234, 245, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  left: 50px;
+}
+
+.category .card-list .card .nama-makanan  {
+  padding: 30px 0 10px;
+}
+
+.category .card-list .card .nama-makanan h1{
+text-align: center;
+font-weight: bold;
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+color: #444;
+}
+
+.category .card .deskripsi-makanan p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+
+.price span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer {
+  background-color: #eaeaea;
+  padding: 2rem 0;
+  text-align: left;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.footer-section p {
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #444;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.social-links img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  object-fit: contain;
+}
+
+.social-links a:hover {
+  color: #0097a7;
+  transition: color 0.3s ease;
+}

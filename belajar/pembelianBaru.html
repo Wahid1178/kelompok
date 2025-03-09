@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulir Pembelian Tiket Transportasi di Kota Padang">
+    <meta name="keywords" content="Tiket Transportasi, Kota Padang, Pembelian Tiket">
+    <meta name="author" content="Profil Kota Padang">
+    <title>Pembelian Tiket</title>
+    <link rel="stylesheet" href="./css/pembelian.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav">
+            <div class="logo">
+                <h2><img src="./img/logo.png" alt=""><a href="./index.html">RuangPadang</a></h2>
+            </div>
+            <ul class="nav_menu_list">
+                <li class="nav_menu_item"><a href="./index.html" class="nav_menu_link">Home</a></li>
+                <li class="nav_menu_item"><a href="./transportasi.html" class="nav_menu_link">Transportasi</a></li>
+                <li class="nav_menu_item"><a href="./layanan.html" class="nav_menu_link">Layanan</a></li>
+                <li class="nav_menu_item"><a href="./kontak.html" class="nav_menu_link">Contact</a></li>
+                <li class="nav_menu_item"><a href="./budaya.html" class="nav_menu_link">Event Budaya</a></li>
+                <li class="nav_menu_item"><a href="./lapor.html" class="nav_menu_link">Lapor</a></li>
+            </ul>
+        </div>
+        <div class="profile-menu">
+            <a href="./index.html" class="profile-link">Kelompok 9</a>
+            <a href="./index.html"><img src="./img/profile.webp" alt=""></a>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Formulir Pembelian Tiket</h2>
+            <form action="#" method="post">
+                <!-- Nama Lengkap -->
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap:</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+                </div>
+                <!-- Pilihan Transportasi -->
+                <div class="form-group">
+                    <label for="jenis-transportasi">Pelabuhan:</label>
+                    <select id="jenis-transportasi" name="jenis-transportasi" required>
+                        <option value="" disabled selected>Pilih Pelabuhan</option>
+                        <option value="kereta">Pelabuhan Muaro</option>
+                        <option value="kapal">Pelabuhan Teluk Bayur</option>
+                    </select>
+                </div>
+                <!-- Tujuan -->
+                <div class="form-group">
+                    <label for="tujuan">Tujuan:</label>
+                    <input type="text" id="tujuan" name="tujuan" placeholder="Masukkan tujuan perjalanan" required>
+                </div>
+                <!-- Tanggal Keberangkatan -->
+                <div class="form-group">
+                    <label for="tanggal">Tanggal Keberangkatan:</label>
+                    <input type="date" id="tanggal" name="tanggal" required>
+                </div>
+                <!-- Jumlah Tiket -->
+                <div class="form-group">
+                    <label for="jumlah-tiket">Jumlah Tiket:</label>
+                    <input type="number" id="jumlah-tiket" name="jumlah-tiket" min="1" max="10" value="1" required>
+                </div>
+                <!-- Tombol Submit -->
+                <button type="submit">Beli Tiket</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Bagian Balai Kota -->
+            <div class="footer-section">
+                <h3>▼ Balai Kota :</h3>
+                <p>
+                    Jl. Bagindo Aziz Chan No.1 <br>
+                    Aie Pacah - Kota Padang <br>
+                    Sumatera Barat <br>
+                    Telp. : 0751 4640800 <br>
+                    Email : diskominfo@padang.go.id
+                </p>
+            </div>
+            <!-- Bagian Jam Kerja -->
+            <div class="footer-section">
+                <h3>▼ Jam Kerja :</h3>
+                <p>
+                    Senin - Kamis : 07.30 - 16.00 WIB <br>
+                    Jum'at : 07.30 - 16.30 WIB
+                </p>
+            </div>
+            <!-- Bagian Media Sosial -->
+            <div class="footer-section">
+                <h3>▼ Media Sosial :</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/19htirRw3k/"><img src="./img/footer/fb.png" alt="Facebook"> Facebook</a>
+                    <a href="https://x.com/InfoPadang_?t=xa4cL9omKUdF7naWZNfqew&s=09"><img src="./img/footer/twitter.png" alt="Twitter"> Twitter</a>
+                    <a href="https://www.instagram.com/infopadang_?igsh=NmlqdXliaTk0NHRt"><img src="./img/footer/ig.jpeg" alt="Instagram"> Instagram</a>
+                    <a href="https://youtube.com/@balaikotatv?si=sem1HpLRZDMjxxsd"><img src="./img/footer/yt.jpeg" alt="YouTube"> Youtube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
