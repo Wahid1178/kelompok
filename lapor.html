@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan LAPOR!</title>
+    <link rel="stylesheet" href="./css/lapor.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav">
+            <div class="logo">
+                <h2><img src="./img/logo.png" alt=""><a href="./index.html">RuangPadang</a></h2>
+            </div>
+            <ul class="nav_menu_list">
+                <li class="nav_menu_item"><a href="./index.html" class="nav_menu_link">Home</a></li>
+                <li class="nav_menu_item"><a href="./transportasi.html" class="nav_menu_link">Transportasi</a></li>
+                <li class="nav_menu_item"><a href="./layanan.html" class="nav_menu_link">Layanan</a></li>
+                <li class="nav_menu_item"><a href="./kontak.html" class="nav_menu_link">Contact</a></li>
+                <li class="nav_menu_item"><a href="./budaya.html" class="nav_menu_link">Event Budaya</a></li>
+                <li class="nav_menu_item"><a href="./lapor.html" class="nav_menu_link">Lapor</a></li>
+            </ul>
+        </div>
+        <div class="profile-menu">
+            <a href="./index.html" class="profile-link">Kelompok 9</a>
+            <a href="./index.html"><img src="./img/profile.webp" alt=""></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <div class="container">
+                <div class="form-container">
+                    <h2>Sampaikan Laporan Anda</h2>
+                    <body class="container mt-5">
+
+                        <h2 class="text-center">Form Laporan Ruangan</h2>
+                    
+                        <form action="sty.php" method="POST">
+                            <div class="mb-3">
+                                <label class="form-label">Nama:</label>
+                                <input type="text" name="nama" class="form-control" required>
+                            </div>
+                    
+                            <div class="mb-3">
+                                <label class="form-label">Email:</label>
+                                <input type="email" name="email" class="form-control" required>
+                            </div>
+                    
+                            <div class="mb-3">
+                                <label class="form-label">Kategori:</label>
+                                <select name="kategori" class="form-control" required>
+                                    <option value="Kerusakan">Kerusakan</option>
+                                    <option value="Kebersihan">Kebersihan</option>
+                                    <option value="Lainnya">Lainnya</option>
+                                </select>
+                            </div>
+                    
+                            <div class="mb-3">
+                                <label class="form-label">Deskripsi:</label>
+                                <textarea name="deskripsi" class="form-control" rows="3" required></textarea>
+                            </div>
+                    
+                            <div class="mb-3">
+                                <label class="form-label">Pesan Tambahan:</label>
+                                <textarea name="pesan" class="form-control" rows="2"></textarea>
+                            </div>
+                            <div class="lihat-laporan">
+                                <a href="styc.php" class="btn btn-secondary">Lihat Laporan Saya</a>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Kirim Laporan</button>
+                        </form>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="steps">
+            <div class="container">
+                <div class="step">
+                    <h3>Tulis Laporan</h3>
+                    <p>Laporkan aspirasi atau pengaduan Anda dengan jelas dan lengkap.</p>
+                </div>
+                <div class="step">
+                    <h3>Proses Verifikasi</h3>
+                    <p>Dalam 3 hari, laporan Anda akan diverifikasi oleh admin.</p>
+                </div>
+                <div class="step">
+                    <h3>Proses Tindak Lanjut</h3>
+                    <p>Laporan Anda akan diteruskan kepada instansi yang berwenang.</p>
+                </div>
+                <div class="step">
+                    <h3>Beri Tanggapan</h3>
+                    <p>Anda dapat menanggapi balasan yang diberikan oleh instansi.</p>
+                </div>
+                <div class="step">
+                    <h3>Selesai</h3>
+                    <p>Laporan Anda akan terus dipantau hingga terselesaikan.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="statistics">
+            <div class="container">
+                <h2>Jumlah Laporan Sekarang</h2>
+                <h3>959,139</h3>
+                <div class="connected-institutions">
+                    <div>34 Kementerian</div>
+                    <div>100 Lembaga</div>
+                    <div>396 Pemda</div>
+                    <div>94 Pemerintah</div>
+                    <div>34 Perguruan Tinggi</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Bagian Balai Kota -->
+            <div class="footer-section">
+                <h3>▼ Balai Kota :</h3>
+                <p>
+                    Jl. Bagindo Aziz Chan No.1 <br>
+                    Aie Pacah - Kota Padang <br>
+                    Sumatera Barat <br>
+                    Telp. : 0751 4640800 <br>
+                    Email : diskominfo@padang.go.id
+                </p>
+            </div>
+            <!-- Bagian Jam Kerja -->
+            <div class="footer-section">
+                <h3>▼ Jam Kerja :</h3>
+                <p>
+                    Senin - Kamis : 07.30 - 16.00 WIB <br>
+                    Jum'at : 07.30 - 16.30 WIB
+                </p>
+            </div>
+            <!-- Bagian Media Sosial -->
+            <div class="footer-section">
+                <h3>▼ Media Sosial :</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/19htirRw3k/"><img src="./img/footer/fb.png" alt="Facebook"> Facebook</a>
+                    <a href="https://x.com/InfoPadang_?t=xa4cL9omKUdF7naWZNfqew&s=09"><img src="./img/footer/twitter.png" alt="Twitter"> Twitter</a>
+                    <a href="https://www.instagram.com/infopadang_?igsh=NmlqdXliaTk0NHRt"><img src="./img/footer/ig.jpeg" alt="Instagram"> Instagram</a>
+                    <a href="https://youtube.com/@balaikotatv?si=sem1HpLRZDMjxxsd"><img src="./img/footer/yt.jpeg" alt="YouTube"> Youtube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
