@@ -1,0 +1,91 @@
+/* CSS untuk halaman login dan registrasi */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #04a8ba;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #0097a7;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+}
+
+.btn:hover {
+    background-color: #0097a7;
+}
+
+.switch {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.switch a {
+    color: #0097a7;
+    text-decoration: none;
+}
+
+.switch a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: #f44336;
+}
+
+.success {
+    background-color: #ddffdd;
+    border-left: 6px solid #0097a7;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: #0097a7;
+}

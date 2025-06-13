@@ -1,0 +1,99 @@
+[2025-06-01 17:25:25] Checking email: admin@ruangpadang.com
+[2025-06-01 17:25:25] Rows found: 1
+[2025-06-01 17:25:25] User found: {"id":9,"email":"admin@ruangpadang.com","role":"admin","is_admin":1}
+[2025-06-01 17:25:25] Password verification failed for email: admin@ruangpadang.com
+[2025-06-01 17:27:56] Checking email: adminn@ruangpadang.com
+[2025-06-01 17:27:56] Rows found: 1
+[2025-06-01 17:27:56] User found: {"id":13,"email":"adminn@ruangpadang.com","role":"admin","is_admin":1}
+[2025-06-01 17:27:57] Password verification failed for email: adminn@ruangpadang.com
+[2025-06-01 17:30:53] Checking email: admin@ruangpadang.com
+[2025-06-01 17:30:53] Rows found: 1
+[2025-06-01 17:30:53] User found: {"id":9,"email":"admin@ruangpadang.com","role":"admin","is_admin":1}
+[2025-06-01 17:30:53] Password verification failed for email: admin@ruangpadang.com
+[2025-06-01 22:32:47] Checking email: admin@ruangpadang.com
+[2025-06-01 22:32:47] Rows found: 1
+[2025-06-01 22:32:47] Stored hash: $2y$10$J8zR3fL5Xz9Y2kQz7mV7P.3QzX6W8bZ1c2N3m4P5Q6R7S8T9U0V1W
+[2025-06-01 22:32:47] Input password (hashed): $2y$10$abudPSx.vp0HuwXQOz1xfeDyKK7KqmCbSqk2BviLnc.UIb7/fUyqS
+[2025-06-01 22:32:47] User found: {"id":9,"email":"admin@ruangpadang.com","role":"admin","is_admin":1}
+[2025-06-01 22:32:48] Password verification failed for email: admin@ruangpadang.com
+[2025-06-01 22:39:39] Checking email: admin@ruangpadang.com
+[2025-06-01 22:39:39] Rows found: 1
+[2025-06-01 22:39:39] Stored hash: $2y$10$hORNAaeT6AesOS8y18596ODtzmF7px48lt9bUBLlVsfqh/OR2toX.
+[2025-06-01 22:39:39] Input password (hashed): $2y$10$Ued6tQ984EKTQZI5BtA6iOqUUIwWLgCaclju5VTNpPJirem.NbrX2
+[2025-06-01 22:39:39] User found: {"id":9,"email":"admin@ruangpadang.com","role":"admin","is_admin":1}
+[2025-06-01 22:39:39] Raw input password: admin123
+[2025-06-01 22:39:39] Session created: {"user_id":9,"nama":"Admin Utama","email":"admin@ruangpadang.com","role":"admin","is_admin":1,"logged_in":true}
+[2025-06-01 22:43:00] Checking email: test123@gmail.com
+[2025-06-01 22:43:00] Rows found: 1
+[2025-06-01 22:43:00] Stored hash: $2y$10$K2T60ndPKAkMITCrFABX1eWLePxWp0dNI1HYKVuGKP8mmOdDDVQsK
+[2025-06-01 22:43:00] Input password (hashed): $2y$10$l3tVbvHPY88AUZgkzZfgAeGJepjc.G40HiWBIvuDTMqA7WlaLykGK
+[2025-06-01 22:43:00] User found: {"id":8,"email":"test123@gmail.com","role":"penyedia","is_admin":0}
+[2025-06-01 22:43:00] Raw input password: test1234
+[2025-06-01 22:43:00] Session created: {"user_id":8,"nama":"M. HIDAYAT NUR WAHID","email":"test123@gmail.com","role":"penyedia","is_admin":0,"logged_in":true}
+[2025-06-01 22:43:09] Checking email: test123@gmail.com
+[2025-06-01 22:43:09] Rows found: 1
+[2025-06-01 22:43:09] Stored hash: $2y$10$K2T60ndPKAkMITCrFABX1eWLePxWp0dNI1HYKVuGKP8mmOdDDVQsK
+[2025-06-01 22:43:09] Input password (hashed): $2y$10$JAqKWTsAGSvOAM1ZFl0jV.PllUUPDikkk0UsNcXXzEJ3YwKCjqr.m
+[2025-06-01 22:43:09] User found: {"id":8,"email":"test123@gmail.com","role":"penyedia","is_admin":0}
+[2025-06-01 22:43:09] Raw input password: test1234
+[2025-06-01 22:43:09] Session created: {"user_id":8,"nama":"M. HIDAYAT NUR WAHID","email":"test123@gmail.com","role":"penyedia","is_admin":0,"logged_in":true}
+[2025-06-01 22:43:20] Checking email: test123@gmail.com
+[2025-06-01 22:43:20] Rows found: 1
+[2025-06-01 22:43:20] Stored hash: $2y$10$K2T60ndPKAkMITCrFABX1eWLePxWp0dNI1HYKVuGKP8mmOdDDVQsK
+[2025-06-01 22:43:20] Input password (hashed): $2y$10$N2DsfQR6clLiocBShiozuOqGwHB06E6.M1Gj1eWes1y1DKndUYMyq
+[2025-06-01 22:43:20] User found: {"id":8,"email":"test123@gmail.com","role":"penyedia","is_admin":0}
+[2025-06-01 22:43:20] Raw input password: test1234
+[2025-06-01 22:43:20] Session created: {"user_id":8,"nama":"M. HIDAYAT NUR WAHID","email":"test123@gmail.com","role":"penyedia","is_admin":0,"logged_in":true}
+[2025-06-01 22:47:05] Checking email: test123@gmail.com
+[2025-06-01 22:47:05] Rows found: 1
+[2025-06-01 22:47:05] User found: {"id":8,"email":"test123@gmail.com","role":"penyedia","is_admin":0}
+[2025-06-01 22:47:05] Stored hash: $2y$10$K2T60ndPKAkMITCrFABX1eWLePxWp0dNI1HYKVuGKP8mmOdDDVQsK
+[2025-06-01 22:47:05] Raw input password: test1234
+[2025-06-01 22:47:05] Session created: {"user_id":8,"nama":"M. HIDAYAT NUR WAHID","email":"test123@gmail.com","role":"penyedia","is_admin":0,"logged_in":true}
+[2025-06-01 22:47:05] Redirecting to dashboard.php
+[2025-06-01 22:48:56] Checking email: test123@gmail.com
+[2025-06-01 22:48:56] Rows found: 1
+[2025-06-01 22:48:56] User found: {"id":8,"email":"test123@gmail.com","role":"penyedia","is_admin":0}
+[2025-06-01 22:48:56] Stored hash: $2y$10$ixEVL4doXskPiPXyFyD.J.v9LcjETtdKyEZ0Uj2eSlFSQL0Z17NrC
+[2025-06-01 22:48:56] Raw input password: test1234
+[2025-06-01 22:48:56] Session created: {"user_id":8,"nama":"M. HIDAYAT NUR WAHID","email":"test123@gmail.com","role":"penyedia","is_admin":0,"logged_in":true}
+[2025-06-01 22:48:56] Redirecting to dashboard.php
+[2025-06-01 22:49:15] Checking email: test123@gmail.com
+[2025-06-01 22:49:15] Rows found: 1
+[2025-06-01 22:49:15] User found: {"id":8,"email":"test123@gmail.com","role":"penyedia","is_admin":0}
+[2025-06-01 22:49:15] Stored hash: $2y$10$ixEVL4doXskPiPXyFyD.J.v9LcjETtdKyEZ0Uj2eSlFSQL0Z17NrC
+[2025-06-01 22:49:15] Raw input password: test1234
+[2025-06-01 22:49:15] Session created: {"user_id":8,"nama":"M. HIDAYAT NUR WAHID","email":"test123@gmail.com","role":"penyedia","is_admin":0,"logged_in":true}
+[2025-06-01 22:49:15] Redirecting to dashboard.php
+[2025-06-01 22:49:27] Checking email: Admin123@gmail.com
+[2025-06-01 22:49:27] Rows found: 1
+[2025-06-01 22:49:27] User found: {"id":3,"email":"Admin123@gmail.com","role":"pengunjung","is_admin":0}
+[2025-06-01 22:49:27] Stored hash: $2y$10$ud6H0MBzN8aCEca9sAPx6eV4PIATTRBJTIS4YB8WQosadmBF/SfOi
+[2025-06-01 22:49:27] Raw input password: admin123
+[2025-06-01 22:49:27] Password verification failed for email: Admin123@gmail.com
+[2025-06-01 22:55:27] Checking email: admin@ruangpadang.com
+[2025-06-01 22:55:27] Rows found: 1
+[2025-06-01 22:55:27] User found: {"id":9,"email":"admin@ruangpadang.com","role":"admin","is_admin":1}
+[2025-06-01 22:55:27] Stored hash: $2y$10$hORNAaeT6AesOS8y18596ODtzmF7px48lt9bUBLlVsfqh/OR2toX.
+[2025-06-01 22:55:27] Raw input password: admin123
+[2025-06-01 22:55:27] Session created: {"user_id":9,"nama":"Admin Utama","email":"admin@ruangpadang.com","role":"admin","is_admin":1,"logged_in":true}
+[2025-06-01 22:55:27] Redirecting to admin_dashboard.php
+[2025-06-01 22:55:47] Checking email: test123@gmail.com
+[2025-06-01 22:55:47] Rows found: 1
+[2025-06-01 22:55:47] User found: {"id":8,"email":"test123@gmail.com","role":"penyedia","is_admin":0}
+[2025-06-01 22:55:47] Stored hash: $2y$10$ixEVL4doXskPiPXyFyD.J.v9LcjETtdKyEZ0Uj2eSlFSQL0Z17NrC
+[2025-06-01 22:55:47] Raw input password: test1234
+[2025-06-01 22:55:47] Session created: {"user_id":8,"nama":"M. HIDAYAT NUR WAHID","email":"test123@gmail.com","role":"penyedia","is_admin":0,"logged_in":true}
+[2025-06-01 22:55:47] Redirecting to dashboard.php
+[2025-06-01 23:00:15] Checking email: admin@ruangpadang.com
+[2025-06-01 23:00:15] Rows found: 1
+[2025-06-01 23:00:15] User found: {"id":9,"email":"admin@ruangpadang.com","role":"admin","is_admin":1}
+[2025-06-01 23:00:16] Session created: {"user_id":9,"nama":"Admin Utama","email":"admin@ruangpadang.com","role":"admin","is_admin":1,"logged_in":true}
+[2025-06-01 23:00:22] Checking email: test123@gmail.com
+[2025-06-01 23:00:22] Rows found: 1
+[2025-06-01 23:00:22] User found: {"id":8,"email":"test123@gmail.com","role":"penyedia","is_admin":0}
+[2025-06-01 23:00:22] Session created: {"user_id":8,"nama":"M. HIDAYAT NUR WAHID","email":"test123@gmail.com","role":"penyedia","is_admin":0,"logged_in":true}
+[2025-06-01 23:00:31] Checking email: test123@gmail.com
+[2025-06-01 23:00:31] Rows found: 1
+[2025-06-01 23:00:31] User found: {"id":8,"email":"test123@gmail.com","role":"penyedia","is_admin":0}
+[2025-06-01 23:00:31] Session created: {"user_id":8,"nama":"M. HIDAYAT NUR WAHID","email":"test123@gmail.com","role":"penyedia","is_admin":0,"logged_in":true}
